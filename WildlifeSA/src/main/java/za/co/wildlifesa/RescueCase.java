@@ -17,7 +17,15 @@ public abstract class RescueCase implements Rescuable {
             String location, String ranger, int rescueDays,
             double dailyCareCost) {
 
-        this.caseId = caseId;
+        if (caseId == null) {
+    throw new IllegalArgumentException("Rescue Case ID cannot be blank.");
+}
+
+if (caseId.trim().isEmpty()) {
+    throw new IllegalArgumentException("Rescue Case ID cannot be blank.");
+}
+
+this.caseId = caseId.trim();
         this.animalName = animalName;
         this.species = species;
         this.location = location;
