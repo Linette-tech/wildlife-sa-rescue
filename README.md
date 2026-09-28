@@ -1,3 +1,10 @@
+Student name: Tabudi Linette Malatji
+Student ID: ST10457818
+Module: Programming 1B
+Module code: PROG6112w
+Assessment: Practical Assignment 2
+GitHub: https://github.com/Linette-tech/wildlife-sa-rescue
+
 # Wildlife SA Rescue Operations System
 
 Programming 1B practical assignment: a Java console application
